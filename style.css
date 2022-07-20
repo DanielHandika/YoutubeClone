@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  height: 1030px;
+  padding-top: 40px;
+  padding-left: 50px;
+  background-color: rgb(248, 248, 248);
+}
+
+p {
+  padding: 0;
+}
+
+.flexbox {
+  background-color: rgb(248, 248, 248);
+}
+
+.video-1 {
+  margin-left: 3rem;
+  margin-top: 3rem;
+  display: inline-block;
+}
+
+.vid-1 {
+  width: 300px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 14px;
+}
+
+.name-1 {
+  color: rgb(100, 100, 100);
+}
+
+.view-1 {
+  color: rgb(100, 100, 100);
+}
+
+.channel-1 {
+  width: 100%;
+  border-radius: 40px;
+}
+
+.video-profile {
+  display: inline-block;
+  width: 50px;
+  object-fit: cover;
+  vertical-align: top;
+  margin-right: 1rem;
+}
+
+.video-title {
+  display: inline-block;
+  width: 200px;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.title-1 {
+  margin-bottom: 12px;
+}
+
+.img-1 {
+  position: relative;
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 8px;
+  bottom: 10px;
+  border-radius: 4px;
+  font-weight: 500;
+  padding: 4px 4px;
+}
